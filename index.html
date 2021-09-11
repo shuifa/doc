@@ -30,7 +30,8 @@
         name: 'shuifa',
         repo: 'shuifa/doc',
         // homepage: '/README.md',
-        loadSidebar: '/_sidebar.md',
+        // loadSidebar: '/_sidebar.md',
+        loadSidebar: true,
         loadNavbar: false,
         fallbackLanguages: ['zh-cn', 'en'],
         mergeNavbar: true,
@@ -53,7 +54,7 @@
         //   '/summary.md': './zh-cn/summary.md'
         // },
         plugins: [
-            EditOnGithubPlugin.create('https://github.com/oushuifa/doc.git/')
+            EditOnGithubPlugin.create('https://github.com/oushuifa/doc.git/#README')
         ],
         plantuml: {
             skin: 'classic',
