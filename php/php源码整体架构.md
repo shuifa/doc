@@ -1,3 +1,7 @@
+# php 源码整体框架
+
+了解PHP源码目录结构以及各自的功能是什么
+
 ## PHP 语言的执行原理
 
 ![php执行顺序](https://oushuifa.github.io/doc/image/exec.png)
